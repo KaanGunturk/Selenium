@@ -42,6 +42,8 @@ public class C04_WebElementMethodlari {
         }else {
             System.out.println("name attribute testi FAILED");
         }
+
+
         driver.close();
 
 

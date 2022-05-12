@@ -19,9 +19,9 @@ public class C02_FindElements {
 
         driver.get("https://www.amazon.com");
 
-        List<WebElement> linlListesi = driver.findElements(By.tagName("a"));
+        List<WebElement> linkListesi = driver.findElements(By.tagName("a"));
 
-        System.out.println("Sayfadki link sayisi : " + linlListesi.size() ); // ---> 315
+        System.out.println("Sayfadaki link sayisi : " + linkListesi.size() ); // ---> 315
 
         driver.close();
     }
